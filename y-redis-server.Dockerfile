@@ -31,4 +31,4 @@ COPY . .
 # assuming your app runs on port 3002
 EXPOSE 8080
 
-node ./bin/server.js --no-colors
+CMD node ./bin/server.js --no-colors
